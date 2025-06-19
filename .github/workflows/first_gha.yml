@@ -4,9 +4,7 @@ jobs:
   varuns_first_action:
     runs-on: ubuntu-latest
     steps:
-      -name: Print Welcome Greeting
-       run: echo "Hello Welcome to GHA course"
-      -name: Print exit greeting
-       run: echo "Hello Goodbye"
-        
-
+      - name: Print Welcome Greeting
+        run: echo "Hello Welcome to GHA course"
+      - name: Print exit greeting
+        run: echo "Hello Goodbye"
